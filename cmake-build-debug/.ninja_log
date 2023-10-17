@@ -1,0 +1,21 @@
+# ninja log v5
+10	558	1695308458668238794	CMakeFiles/math.dir/matrix.cpp.o	3d8fb7c36be071fb
+5	641	1695704134141970844	CMakeFiles/math.dir/src/text.cpp.o	b4e01b925947cfc7
+3	375	1695309140165245198	CMakeFiles/math.dir/text.cpp.o	ad9fd7ac57f604b9
+1	62	1697536540299247141	build.ninja	6d16d22571dd96a2
+9	557	1695719210534707632	CMakeFiles/math.dir/src/crammer.cpp.o	2a4e781e6f8a0722
+3	580	1695722108305703373	CMakeFiles/math.dir/src/main.cpp.o	ad7206949a3ea966
+7	1023	1695374688228085902	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o	9f7d4497b5b1a4f5
+580	623	1695722108350620245	math	e2a09c1d2b3e6e1
+1023	1098	1695374688306419000	_deps/fmt-build/libfmtd.a	4d3fcd7d1461ea42
+3	466	1695309190320964428	CMakeFiles/math.dir/main.cpp.o	a03212b21e804424
+3	522	1695484428171695372	CMakeFiles/math.dir/src/matrix.cpp.o	de335d1f97c21939
+7	786	1695374687991546122	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o	afd9ce88b7c60889
+5	604	1695704134102680786	CMakeFiles/math.dir/src/basic.cpp.o	fadb0a6337d63f09
+4	579	1695722108303235715	CMakeFiles/math.dir/src/probSolver.cpp.o	40d08725f0826105
+10	499	1697536547304269406	CMakeFiles/math.dir/src/probSolver.cpp.o	f9f0458c9fef0544
+9	506	1697536547311856178	CMakeFiles/math.dir/src/text.cpp.o	44b051bad283acf7
+9	512	1697536547317989830	CMakeFiles/math.dir/src/main.cpp.o	e02e79f6231e26b9
+9	518	1697536547324531617	CMakeFiles/math.dir/src/matrix.cpp.o	911c30ef5685c79a
+9	529	1697536547335521598	CMakeFiles/math.dir/src/crammer.cpp.o	b2e11e4f4bc45a51
+529	723	1697536547531507209	math	422850144e4fce54
