@@ -1,69 +1,60 @@
-<h1>Overview</h1>
-    <p>This project implements a calculator application with support for basic arithmetic operations, matrix math, and probability distributions.</p>
+# Overview
 
-<h2>Main Components</h2>
+This project implements a calculator application with support for basic arithmetic operations, matrix math, and probability distributions.
 
-<h3>text.h/.cpp</h3>
-<p>Contains Text class with methods to print menus and execute math operations.</p>
+## Main Components
 
- <ul>
-        <li><code>matrix_menu()</code> - Prints menu for matrix operations</li>
-        <li><code>matrix_sum()</code> - Adds two matrices</li>
-        <li><code>matrix_diff()</code> - Subtracts two matrices</li>
-        <li><code>matrix_prod()</code> - Multiplies two matrices</li>
-        <li><code>matrix_transpose()</code> - Transposes a matrix</li>
-        <li><code>matrix_scale()</code> - Multiplies a matrix by a scalar</li>
-        <li><code>matrix_det()</code> - Calculates determinant of a matrix</li>
-        <li><code>basic_menu()</code> - Prints menu for basic arithmetic</li>
-        <li><code>bye()</code> - Prints goodbye message</li>
-</ul>
+### text.h/.cpp
+Contains Text class with methods to print menus and execute math operations.
 
-<h3>matrix.h/.cpp</h3>
-<p>Contains Matrix class to represent matrices and perform operations.</p>
+- `matrix_menu()` - Prints menu for matrix operations
+- `matrix_sum()` - Adds two matrices
+- `matrix_diff()` - Subtracts two matrices
+- `matrix_prod()` - Multiplies two matrices
+- `matrix_transpose()` - Transposes a matrix
+- `matrix_scale()` - Multiplies a matrix by a scalar
+- `matrix_det()` - Calculates determinant of a matrix
+- `basic_menu()` - Prints menu for basic arithmetic
+- `bye()` - Prints goodbye message
 
-<ul>
-        <li><code>inputMatrix()</code> - Inputs matrix values from user</li>
-        <li><code>printMatrix()</code> - Prints matrix contents</li>
-        <li><code>transpose()</code> - Returns transpose of matrix</li>
-        <li><code>scaleMatrix()</code> - Returns matrix multiplied by scalar</li>
-        <li><code>determinant_2_2()</code> - 2x2 determinant</li>
-        <li><code>determinant_3_3()</code> - 3x3 determinant</li>
-        <li><code>determinant_4_4()</code> - 4x4 determinant</li>
-        <li><code>fill()</code> - Fills matrix from vector</li>
-        <li><code>inverse_2_2()</code> - Finds inverse of 2x2 matrix</li>
-        <li><code>operator+</code> - Overloaded + for matrix addition</li>
-        <li><code>operator-</code> - Overloaded - for matrix subtraction</li>
-        <li><code>operator|</code> - Overloaded | for matrix multiplication</li>
-        <li><code>operator[]</code> - Overloaded [] for element access</li>
-</ul>
+### matrix.h/.cpp
+Contains Matrix class to represent matrices and perform operations.
 
-<h3>crammer.h/.cpp</h3>
-<p>Implements Cramer's rule for solving a system of linear equations.</p>
+- `inputMatrix()` - Inputs matrix values from user
+- `printMatrix()` - Prints matrix contents
+- `transpose()` - Returns transpose of matrix
+- `scaleMatrix()` - Returns matrix multiplied by scalar
+- `determinant_2_2()` - 2x2 determinant
+- `determinant_3_3()` - 3x3 determinant
+- `determinant_4_4()` - 4x4 determinant
+- `fill()` - Fills matrix from vector
+- `inverse_2_2()` - Finds inverse of 2x2 matrix
+- `operator+` - Overloaded + for matrix addition
+- `operator-` - Overloaded - for matrix subtraction
+- `operator|` - Overloaded | for matrix multiplication
+- `operator[]` - Overloaded [] for element access
 
-<ul>
-        <li><code>get_ratio()</code> - Parses equation string into coefficient ratios</li>
-        <li><code>is_correct()</code> - Checks format of equation</li>
-        <li><code>start_crammer()</code> - Implements Cramer's rule</li>
-</ul>
+### crammer.h/.cpp
+Implements Cramer's rule for solving a system of linear equations.
 
-<h3>probSolver.h/.cpp</h3>
-<p>Computes probability mass functions for various discrete distributions.</p>
+- `get_ratio()` - Parses equation string into coefficient ratios
+- `is_correct()` - Checks format of equation
+- `start_crammer()` - Implements Cramer's rule
 
-<ul>
-        <li><code>factorial()</code> - Computes factorial</li>
-        <li><code>bernoulli()</code> - Bernoulli distribution PMF</li>
-        <li><code>poisson()</code> - Poisson distribution PMF</li>
-        <li><code>laplace_local()</code> - Localized Laplace distribution PMF</li>
-</ul>
+### probSolver.h/.cpp
+Computes probability mass functions for various discrete distributions.
 
-<h3>main.cpp</h3>
-<p>Entry point and main application loop.</p>
+- `factorial()` - Computes factorial
+- `bernoulli()` - Bernoulli distribution PMF
+- `poisson()` - Poisson distribution PMF
+- `laplace_local()` - Localized Laplace distribution PMF
 
-<ul>
-        <li>Sets up signal handler for keyboard interrupt</li>
-        <li>Prints operation menus and reads user input</li>
-        <li>Calls appropriate functions based on input</li>
-        <li>Loops until the user quits</li>
-</ul>
+### main.cpp
+Entry point and main application loop.
 
-<p>The code demonstrates good practices like separating interface and implementation (text vs matrix), overloading operators, and using const correctness. Overall, it provides a useful set of math utilities in an easy-to-use application.</p>
+- Sets up signal handler for keyboard interrupt
+- Prints operation menus and reads user input
+- Calls appropriate functions based on input
+- Loops until the user quits
+
+The code demonstrates good practices like separating interface and implementation (text vs matrix), overloading operators, and using const correctness. Overall, it provides a useful set of math utilities in an easy-to-use application.
